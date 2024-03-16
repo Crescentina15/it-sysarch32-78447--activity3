@@ -1,0 +1,56 @@
+header{
+  text-align: left;
+  margin-top: 40px;
+  font-size: 300;
+}
+
+.pokemon-container {
+  width: 300px; 
+  padding: 20px; 
+  border: 1px solid #ccc;
+  border-radius: 10px; 
+  text-align: center; 
+}
+
+.pokemon-attributes {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  margin-top: 10px; 
+}
+
+.pokemon-attribute {
+  margin-bottom: 5px;
+}
+
+.pokedex-container {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+.language-buttons {
+  margin-top: 20px;
+  align-content: left;
+}
+
+.language-buttons button {
+  margin: 5px;
+  align-items: left;
+}
+.pokedex {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+.language-buttons,
+.pokemon-list {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: left; 
+}
+
+.language-buttons button {
+  margin: 5px; 
+}
