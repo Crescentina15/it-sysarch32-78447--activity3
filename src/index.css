@@ -1,42 +1,79 @@
 header{
   text-align: left;
-  margin-top: 40px;
-  font-size: 300;
+  font-size: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+  margin: 20px;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: antiquewhite;
 }
 
 .pokemon-container {
   width: 300px; 
-  padding: 20px; 
-  border: 1px solid #ccc;
-  border-radius: 10px; 
+  padding: 50px; 
+  border: 1px solid #000000; 
+  margin-right: 30px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  margin-left: 53px;
   text-align: center; 
+  list-style-type: lower-latin;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  background-color: beige;
+  transition: transform 0.3s; 
+  cursor: pointer;  
+  
 }
 
-.pokemon-attributes {
-  display: flex;
-  flex-direction: column;
-  align-items: center; 
-  margin-top: 10px; 
+.pokemon-details{
+text-align: center;
 }
 
-.pokemon-attribute {
+.base-stats {
+  list-style: none; 
+  padding-left: 10; 
+  text-align: justify;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  grid-template-rows: repeat(3, auto); 
+  gap: 10px
+}
+
+.type-section{
+  text-align: center;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
   margin-bottom: 5px;
 }
 
-.pokedex-container {
+.type-section-container {
   display: flex;
-  flex-direction: column;
-  align-items: left;
+  flex-wrap: wrap; 
+  
 }
 
+.type {
+  margin-right: 20px; /* Add some space between types */
+
+}
+
+
 .language-buttons {
-  margin-top: 20px;
   align-content: left;
+  display: flex; 
+  border-color: #000000;
 }
 
 .language-buttons button {
-  margin: 5px;
+  padding: 15px 35px;
   align-items: left;
+  border: 100px;
+  background-color: bisque;
+  cursor: pointer; /* Change cursor on hover */
+  transition: background-color 0.3s;
 }
 .pokedex {
   display: flex;
@@ -51,6 +88,7 @@ header{
   justify-content: left; 
 }
 
+
 .language-buttons button {
-  margin: 5px; 
+  margin: 10px; 
 }
