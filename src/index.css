@@ -31,7 +31,9 @@ body {
 
 .pokemon-details{
 text-align: center;
+font-family: fantasy;
 }
+
 
 .base-stats {
   list-style: none; 
@@ -45,8 +47,9 @@ text-align: center;
 
 .type-section{
   text-align: center;
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-family: fantasy;
   margin-bottom: 5px;
+  background-color: rgb(255, 252, 83);
 }
 
 .type-section-container {
