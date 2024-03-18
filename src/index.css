@@ -1,5 +1,5 @@
 header{
-  text-align: left;
+  text-align: center;
   font-size: 30px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -49,7 +49,7 @@ font-family: fantasy;
   text-align: center;
   font-family: fantasy;
   margin-bottom: 5px;
-  background-color: rgb(255, 252, 83);
+  background-color: rgb(241, 239, 159);
 }
 
 .type-section-container {
@@ -81,7 +81,7 @@ font-family: fantasy;
 .pokedex {
   display: flex;
   flex-direction: column;
-  align-items: left;
+  align-items: center;
 }
 
 .language-buttons,
